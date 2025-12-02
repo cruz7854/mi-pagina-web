@@ -1,0 +1,27 @@
+body {
+  background-image: url("descarga.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background: rgba(43, 122, 120, 0.7); /* ← header semitransparente */
+  color: #fff;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.6); /* ← contenido semitransparente */
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.06);
+  margin-top: 14px;
+}
